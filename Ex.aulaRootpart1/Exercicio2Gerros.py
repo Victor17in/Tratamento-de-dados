@@ -17,5 +17,5 @@ gr.SetMarkerStyle( 8 )
 gr.Draw( 'ALP' )
 c1.Draw()
 c1.Update()
-
+c1.SaveAs("plot.pdf")
 
