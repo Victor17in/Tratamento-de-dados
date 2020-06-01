@@ -1,0 +1,8 @@
+Para ser executado no prompt:
+TF1 f5("f5","[p0]*sin([p1]*x)/x",0.,10.);
+f5.Draw()
+f5.SetLineColor(4);
+f5.Draw()
+f5.SetParameters(1,2);
+f5.Draw()
+

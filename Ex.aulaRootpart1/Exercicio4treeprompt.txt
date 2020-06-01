@@ -1,0 +1,21 @@
+Para ser executado no prompt:
+TFile *f1 = new TFile("tree.root");
+f1->ls();
+TTree *mytree = (TTree *)f1->Get("tree1");
+mytree->Print();
+TCanvas *c2 = new TCanvas("c2", "Tree canvas", 300, 600);
+c2->Divide(1,2);
+c2->cd(1)
+gStyle->SetOptStat(1);
+mytree->Draw("ebeam");
+c2->cd(2);
+mytree->Draw("px:py", "ebeam>150.0");
+
+mytree->Draw("px:py", "ebeam>150.0", "lego");
+TH1F * h = new TH1F("hBeamEnergy", "Beam Energy", 200, 148.0, 152.0);
+mytree->Project("hBeamEnergy", "ebeam", "px>10.0");
+TCut * px_plane = new TCut("px / log(px*2 + py**2) > 0.20");
+TCut * py_plane = new TCut("py / log(px*2 + py**2) > 0.20");
+mytree->Draw("ebeam", *px_plane && *py_plane);
+
+end
