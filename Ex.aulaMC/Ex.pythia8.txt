@@ -1,0 +1,129 @@
+Referente a main01.
+Primeiro:
+  pythia.readString("Beams:eCM = 8000.");
+  pythia.readString("HardQCD:all = on");
+  pythia.readString("PhaseSpace:pTHatMin = 20.");
+
+ *-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | g g -> g g                                     111 |         414         65         65 |   1.977e-01  1.482e-02 |
+ | g g -> q qbar (uds)                            112 |           8          2          2 |   2.626e-03  8.808e-04 |
+ | q g -> q g                                     113 |         277         26         26 |   1.216e-01  1.158e-02 |
+ | q q(bar)' -> q q(bar)'                         114 |          33          6          6 |   2.056e-02  4.284e-03 |
+ | q qbar -> g g                                  115 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> q' qbar' (uds)                       116 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> c cbar                                  121 |           1          1          1 |   3.914e-03  3.914e-03 |
+ | q qbar -> c cbar                               122 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> b bbar                                  123 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> b bbar                               124 |           0          0          0 |   0.000e+00  0.000e+00 |
+ |                                                    |                                   |                        |
+ | sum                                                |         733        100        100 |   3.464e-01  1.970e-02 |
+ |                                                                                                                 |
+ *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
+
+Segundo:
+  pythia.readString("Beams:eCM = 800.");//Alterar a massa, era assim:"Beams:eCM = 8000."
+  pythia.readString("HardQCD:all = on");
+  pythia.readString("PhaseSpace:pTHatMin = 20.");
+
+  *-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | g g -> g g                                     111 |         240         44         44 |   2.278e-03  1.602e-04 |
+ | g g -> q qbar (uds)                            112 |           5          0          0 |   0.000e+00  0.000e+00 |
+ | q g -> q g                                     113 |         427         49         49 |   2.588e-03  1.915e-04 |
+ | q q(bar)' -> q q(bar)'                         114 |          76          7          7 |   5.656e-04  9.840e-05 |
+ | q qbar -> g g                                  115 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> q' qbar' (uds)                       116 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> c cbar                                  121 |           2          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> c cbar                               122 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> b bbar                                  123 |           2          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> b bbar                               124 |           0          0          0 |   0.000e+00  0.000e+00 |
+ |                                                    |                                   |                        |
+ | sum                                                |         752        100        100 |   5.431e-03  2.684e-04 |
+ |                                                                                                                 |
+ *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
+
+Terceiro:
+  pythia.readString("Beams:eCM = 80.");//Alterar a massa, era assim:"Beams:eCM = 8000."
+  pythia.readString("HardQCD:all = on");
+  pythia.readString("PhaseSpace:pTHatMin = 20.");
+
+*-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | g g -> g g                                     111 |          33          3          3 |   4.176e-09  1.672e-09 |
+ | g g -> q qbar (uds)                            112 |           1          0          0 |   0.000e+00  0.000e+00 |
+ | q g -> q g                                     113 |         369         38         38 |   4.619e-08  4.381e-09 |
+ | q q(bar)' -> q q(bar)'                         114 |         625         59         59 |   6.730e-08  4.511e-09 |
+ | q qbar -> g g                                  115 |           1          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> q' qbar' (uds)                       116 |           2          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> c cbar                                  121 |           1          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> c cbar                               122 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> b bbar                                  123 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> b bbar                               124 |           0          0          0 |   0.000e+00  0.000e+00 |
+ |                                                    |                                   |                        |
+ | sum                                                |        1032        100        100 |   1.177e-07  6.507e-09 |
+ |                                                                                                                 |
+ *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
+
+Quarto:
+  pythia.readString("Beams:eCM = 8.");//Alterar a massa, era assim:"Beams:eCM = 8000."
+  pythia.readString("HardQCD:all = on");
+  pythia.readString("PhaseSpace:pTHatMin = 20.");
+
+ *-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ |                                                    |                                   |                        |
+ | sum                                                |           0          0          0 |   0.000e+00  0.000e+00 |
+ |                                                                                                                 |
+ *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
+
+Quinto:
+  pythia.readString("Beams:eCM = 800000.");//Alterar a massa, era assim:"Beams:eCM = 8000."
+  pythia.readString("HardQCD:all = on");
+  pythia.readString("PhaseSpace:pTHatMin = 20.");
+
+*-------  PYTHIA Event and Cross Section Statistics  -------------------------------------------------------------*
+ |                                                                                                                 |
+ | Subprocess                                    Code |            Number of events       |      sigma +- delta    |
+ |                                                    |       Tried   Selected   Accepted |     (estimated) (mb)   |
+ |                                                    |                                   |                        |
+ |-----------------------------------------------------------------------------------------------------------------|
+ |                                                    |                                   |                        |
+ | g g -> g g                                     111 |        1353         72         72 |   6.054e+01  3.392e+00 |
+ | g g -> q qbar (uds)                            112 |           5          1          1 |   8.931e-01  8.931e-01 |
+ | q g -> q g                                     113 |         425         24         24 |   1.965e+01  2.222e+00 |
+ | q q(bar)' -> q q(bar)'                         114 |          29          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> g g                                  115 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | q qbar -> q' qbar' (uds)                       116 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> c cbar                                  121 |           9          2          2 |   4.383e-01  1.749e-01 |
+ | q qbar -> c cbar                               122 |           0          0          0 |   0.000e+00  0.000e+00 |
+ | g g -> b bbar                                  123 |           1          1          1 |   1.139e+00  1.139e+00 |
+ | q qbar -> b bbar                               124 |           0          0          0 |   0.000e+00  0.000e+00 |
+ |                                                    |                                   |                        |
+ | sum                                                |        1822        100        100 |   8.266e+01  4.309e+00 |
+ |                                                                                                                 |
+ *-------  End PYTHIA Event and Cross Section Statistics ----------------------------------------------------------*
+
+Conclusão:
+Com aumento da massa, a seção de choque aumenta.
+
