@@ -1,0 +1,11 @@
+
+1.Como o modelo pode ser implementado?
+Aumentando a energia de colisão no estado inicial para produzir mais partículas no estado final e introduzindo backgrounds relativos a essa análise.
+
+2. Por que a distribuição de maior rendimento não está bem descrita?
+Porque necessita-se da introdução de outros background relativos a essa análise.
+
+Exercício 2
+Como o redimento do sinal foi afetado?
+Como corte em no PT de 10 GeV/c, o número de eventos selecionados no J/Psi diminuiu aproximadamente pela metade o que aumentou a incerteza estatística. Para o Z, não houve uma grande diferença pois a massa do Z é bem maior que 10 GeV.
+
