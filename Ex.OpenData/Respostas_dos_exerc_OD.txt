@@ -1,0 +1,15 @@
+
+1.De que forma você pode ver o efeito da pseudorrapidez na medição da resolução do detector CMS?
+Com a pseudorrapidez ampla, há uma maior seleção de eventos, com ela pequena, há uma menor seleção de eventos.
+
+2.Seus resultados mostram o mesmo que a teoria prevê?
+Sim, aparece um pico na massa do Z e a pseudorrapidez seleciona eventos com quase o mesmo número de eventos.
+
+3.Depois das mudanças, rode o código de novo. Como as mudanças afetaram o número de eventos? E nos histrogramas?
+Se eu aumento a cond1 para 1.99, o número de eventos diminui para 95 e o gráfico não apresenta pico. Se diminuo a cond2 para 0.15, os eventos vão para 79 e o gráfico apresenta um pequeno pico na massa do Z.
+Se diminuo a cond1 para 1.02, os eventos são 2502 e o histrograma aparece com o pico entorno do z com mais de 100 eventos. Se aumento a cond2 para 0.95, os eventos são 2712 e o histograma aparece com o pico entorno do z com mais de 200 eventos.
+
+4.Código: "certonewbw.py"
+
+5.Calcule o tempo de vida do boson Z e sua incerteza com o fit. Compare o valor calculado com conhecido(3×10⁻²⁵s). O que você notou? Como você poderia explicar o que observou?
+Notei que o valor ficou dentro do valor esperado, porém com um erro muito grande. Isso ocorre devido a quantidade de medidas do Z analisadas ser insuficiente para medir a massa de uma partícula que com a propagação de erros acarreta em um erro ainda maior.  
